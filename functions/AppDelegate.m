@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  functions
 //
-//  Created by CtecTeacher on 5/27/14.
-//  Copyright (c) 2014 ABC Adult School. All rights reserved.
+//  Created by Ricardo Ruiz on 5/27/14.
+//  Copyright (c) 2014 iOS Apps Development, All rights reserved.
 //
 
 #import "AppDelegate.h"

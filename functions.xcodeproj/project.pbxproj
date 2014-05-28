@@ -21,6 +21,8 @@
 		9BC470D319357FC9009502F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC470B519357FC9009502F3 /* UIKit.framework */; };
 		9BC470DB19357FC9009502F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BC470D919357FC9009502F3 /* InfoPlist.strings */; };
 		9BC470DD19357FC9009502F3 /* functionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC470DC19357FC9009502F3 /* functionsTests.m */; };
+		EB0DBE2C1935840800018C6B /* background2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB0DBE2B1935840800018C6B /* background2@2x.jpg */; };
+		EB0DBE2E1935926700018C6B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0DBE2D1935926700018C6B /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9BC470D819357FC9009502F3 /* functionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "functionsTests-Info.plist"; sourceTree = "<group>"; };
 		9BC470DA19357FC9009502F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BC470DC19357FC9009502F3 /* functionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = functionsTests.m; sourceTree = "<group>"; };
+		EB0DBE2B1935840800018C6B /* background2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background2@2x.jpg"; sourceTree = "<group>"; };
+		EB0DBE2D1935926700018C6B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0DBE2E1935926700018C6B /* iAd.framework in Frameworks */,
 				9BC470B419357FC9009502F3 /* CoreGraphics.framework in Frameworks */,
 				9BC470B619357FC9009502F3 /* UIKit.framework in Frameworks */,
 				9BC470B219357FC9009502F3 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		9BC470B019357FC9009502F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB0DBE2D1935926700018C6B /* iAd.framework */,
 				9BC470B119357FC9009502F3 /* Foundation.framework */,
 				9BC470B319357FC9009502F3 /* CoreGraphics.framework */,
 				9BC470B519357FC9009502F3 /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		9BC470B719357FC9009502F3 /* functions */ = {
 			isa = PBXGroup;
 			children = (
+				EB0DBE2B1935840800018C6B /* background2@2x.jpg */,
 				9BC470C019357FC9009502F3 /* AppDelegate.h */,
 				9BC470C119357FC9009502F3 /* AppDelegate.m */,
 				9BC470C319357FC9009502F3 /* Main.storyboard */,
@@ -228,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0DBE2C1935840800018C6B /* background2@2x.jpg in Resources */,
 				9BC470CA19357FC9009502F3 /* Images.xcassets in Resources */,
 				9BC470BC19357FC9009502F3 /* InfoPlist.strings in Resources */,
 				9BC470C519357FC9009502F3 /* Main.storyboard in Resources */,
@@ -456,6 +464,7 @@
 				9BC470E219357FC9009502F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BC470E319357FC9009502F3 /* Build configuration list for PBXNativeTarget "functionsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				9BC470E519357FC9009502F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
